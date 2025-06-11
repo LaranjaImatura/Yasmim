@@ -28,7 +28,7 @@ function criarCoracao() {
 }
 
 function animarTexto() {
-  const texto = "Oi Ellen ! \nqueria te dizer que achei legal ver o quão você é determinada \npara alcançar seus objetivos e queria te dizer que \nte admiro muito 💖";
+  const texto = "Oi Yasmim ! \nqueria te dizer que achei legal ver o quão você é determinada \npara alcançar seus objetivos e queria te dizer que \nte admiro muito 💖";
   const alvo = document.getElementById("mensagemDigitada");
   let i = 0;
   let resultado = "";
