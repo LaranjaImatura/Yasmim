@@ -1,6 +1,6 @@
 window.onload = function () {
   // Textos
-  document.getElementById("titulo").textContent = "OI Yasmin !";
+  document.getElementById("titulo").textContent = "OI Yasmim !";
   document.getElementById("btn1").textContent = "Oi olha não sei japonês...";
   document.getElementById("btn2").textContent = "Chuva de coração";
   document.getElementById("btn3").textContent = "👀👀👀";
