@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="titulo"></h1>
+
+    <div class="buttons">
+      <button id="btn1"></button>
+      <button id="btn2"></button>
+      <button id="btn3"></button>
+      <button id="btn4"></button>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="fecharPopup()">&times;</span>
+      <p id="mensagemPopup"></p>
+    </div>
+  </div>
+
+  <div class="carrossel-infinito">
+    <div class="faixa">
+      <img src="https://i.postimg.cc/63S789LC/IMG-20250525-WA0050.jpg" alt="Imagem 1" />
+      <img src="https://i.postimg.cc/1zmVT73V/IMG-20250525-WA0051.jpg" alt="Imagem 2" />
+      <img src="https://i.postimg.cc/FHgJTXNQ/Screenshot-20250611-095225-Instagram.jpg" alt="Imagem 3" />
+      <img src="https://i.postimg.cc/d1DkQ7dq/Screenshot-20250611-095245-Instagram.jpg" alt="Imagem 4" />
+      <img src="https://i.postimg.cc/bvmSj0ZC/Screenshot-20250611-115835-Instagram.jpg" alt="Imagem 5" />
+
+      <!-- Duplicadas para a ilusão de continuidade -->
+      <img src="https://i.postimg.cc/63S789LC/IMG-20250525-WA0050.jpg" alt="Imagem 1" />
+      <img src="https://i.postimg.cc/1zmVT73V/IMG-20250525-WA0051.jpg" alt="Imagem 2" />
+      <img src="https://i.postimg.cc/FHgJTXNQ/Screenshot-20250611-095225-Instagram.jpg" alt="Imagem 3" />
+      <img src="https://i.postimg.cc/d1DkQ7dq/Screenshot-20250611-095245-Instagram.jpg" alt="Imagem 4" />
+      <img src="https://i.postimg.cc/bvmSj0ZC/Screenshot-20250611-115835-Instagram.jpg" alt="Imagem 5" />
+    </div>
+  </div>
+
+  <p class="texto-abaixo">
+  Essas fotos são especial pra mim 💖
+  </p>
+
+  <div class="musica-spotify">
+  <h2 style="color: #c71585;">Essa música é a favorita sua...</h2>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1fEGtTZjrjJW8eUeewnNJR?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+  
+  <div id="chuvaCoracoes"></div>
+  <script src="script.js"></script>
+</body>
+</html>
